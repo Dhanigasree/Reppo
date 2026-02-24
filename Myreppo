@@ -1,3 +1,25 @@
 reppo reppo
 https://github.com/Sowrabh0-0/Sales-Inovice
 https://github.com/Sowrabh0-0/sales-invoice-ui.git
+
+
+
+
+server {
+    listen 80;
+    server_name _;
+
+
+    location / {
+        proxy_pass http://127.0.0.1:3000;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+    }
+
+  
+    location /api/ {
+        proxy_pass http://10.0.2.246/;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+    }
+}
