@@ -23,3 +23,7 @@ server {
         proxy_set_header X-Real-IP $remote_addr;
     }
 }
+
+
+
+https://aws.amazon.com/free/?trk=011f28e3-1dfa-405d-894f-3e05b14038a6&sc_channel=ps&ef_id=Cj0KCQiAtfXMBhDzARIsAJ0jp3BydklmUIDHWEPngqdOfJ07M5XQitNc9bVyNkNdyyvUCtnRy2zAzfcaAjwQEALw_wcB:G:s&s_kwcid=AL!4422!3!795924513350!e!!g!!aws%20free%20tier!23523526785!196587341990&gad_campaignid=23523526785&gbraid=0AAAAADjHtp-kaOZWflGePt7oKFNASC2VG&gclid=Cj0KCQiAtfXMBhDzARIsAJ0jp3BydklmUIDHWEPngqdOfJ07M5XQitNc9bVyNkNdyyvUCtnRy2zAzfcaAjwQEALw_wcB
